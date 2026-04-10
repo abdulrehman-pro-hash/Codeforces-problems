@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int weight_melon; 
+    cin >> weight_melon;
+    if (weight_melon % 2 == 0 && weight_melon > 2) 
+        cout << "YES"  ;
+     else 
+        cout << "NO"  ;
+    return 0;
+}
